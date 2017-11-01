@@ -19,4 +19,14 @@
     <servlet-name>StartWSOP</servlet-name>
     <url-pattern>/StartWSOP</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GithubTesting</display-name>
+    <servlet-name>GithubTesting</servlet-name>
+    <servlet-class>wsop.GithubTesting</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GithubTesting</servlet-name>
+    <url-pattern>/GithubTesting</url-pattern>
+  </servlet-mapping>
 </web-app>

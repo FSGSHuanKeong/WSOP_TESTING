@@ -41,6 +41,9 @@ public class StartWSOP extends HttpServlet {
        
 	String URL_ENDPOINT = "http://192.9.230.168:80/dsewsop/services/DocumalWebService.DocumalWebServiceHttpEndpoint/";
 	
+	// 1st commit
+	String a = "";
+	
     /**
      * @see HttpServlet#HttpServlet()
      */
